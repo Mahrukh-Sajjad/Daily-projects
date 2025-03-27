@@ -1,0 +1,31 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  background-color: black;
+  height: 100vh;
+}
+.outer {
+  background: linear-gradient(to right, rgb(177, 16, 177), beige);
+  padding: 60px 120px;
+  border-radius: 10px;
+}
+.outer .card {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.card button {
+  border-radius: 5px;
+  background-color: rgb(128, 17, 128);
+  color: beige;
+  padding: 10px 0;
+}
+
