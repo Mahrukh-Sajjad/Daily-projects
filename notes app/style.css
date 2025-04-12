@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-image: url("https://images.unsplash.com/photo-1604145204173-57c74a578cd6?q=80&w=1375&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+}
+
+.outer {
+  padding: 50px;
+  background-image: url("https://images.unsplash.com/photo-1628431668031-6e3db588c9e3?q=80&w=1480&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D");
+  display: flex;
+  flex-direction: column;
+  border-radius: 10px;
+}
+
+.outer .left form {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.outer .left form label {
+  color: #fcc8b9;
+}
+.outer .left form input {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: #f5d7f2;
+}
+.outer .left form textarea {
+  border-radius: 5px;
+  border: none;
+  padding: 10px;
+  background-color: #f5d7f2;
+}
+.outer .left .btns {
+  display: flex;
+  justify-content: space-between;
+}
+.outer .left .btns button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #ec9dd2;
+}
+.notes-container {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin-top: 30px;
+}
+.notes-container .dnotes {
+  display: flex;
+  justify-content: space-between;
+  background-color: #f5d7f2;
+  padding: 10px;
+  border-radius: 5px;
+}
+.notes-container .dnotes button {
+  padding: 5px;
+  border-radius: 5px;
+  background-color: #e6b2ba;
+}
