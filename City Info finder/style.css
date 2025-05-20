@@ -1,0 +1,75 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+}
+body {
+  background: linear-gradient(to right, #ebb498, #e0f7f5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 30px;
+}
+h1 {
+  color: #0d7a78;
+  font-weight: 600;
+  font-family: 100px;
+}
+form {
+  display: flex;
+  gap: 5px;
+}
+input {
+  background: #fff8f5;
+  color: #3a4a4f;
+  border: 2px solid #f9a87e;
+  padding: 15px 40px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  font-size: 16px;
+}
+button {
+  background-color: #0d7a78;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 5px;
+}
+.card-content {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 5px;
+}
+.city-name {
+  padding-bottom: 3px;
+}
+.country-name {
+  padding-bottom: 10px;
+}
+.card {
+  background-color: white;
+  border-radius: 10px;
+  padding: 30px;
+  display: flex;
+  flex-direction: column;
+}
+.st {
+  display: flex;
+  justify-content: space-between;
+  gap: 70px;
+}
+h3 {
+  color: #dd5b1a;
+}
+img {
+  height: 200px;
+  width: 100%;
+  border-radius: 10px;
+}
