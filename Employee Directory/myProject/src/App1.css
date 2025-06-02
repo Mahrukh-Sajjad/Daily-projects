@@ -1,0 +1,41 @@
+.container {
+  background-color: rgb(228, 170, 159);
+
+  border-radius: 10px;
+  padding: 20px;
+}
+.details {
+  display: flex;
+}
+h1 {
+  color: #6b4c49;
+  text-align: center;
+}
+
+.eContainer {
+  display: flex;
+  align-items: center;
+  height: 30px;
+  width: 300px;
+  background-color: white;
+  border-radius: 5px;
+  padding: 5px;
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  border-right: 3px solid #6b4c49;
+}
+.right {
+  padding: 0 20px;
+}
+.right .input {
+  padding: 5px;
+  background-color: white;
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+h4 {
+  margin: 0;
+}
