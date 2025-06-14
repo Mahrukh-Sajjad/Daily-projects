@@ -1,0 +1,58 @@
+.mainDiv {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+.mainDiv button {
+  padding: 10px 20px;
+  border-radius: 20px;
+}
+.card1 {
+  height: 500px;
+  width: 700px;
+  background-color: white;
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+  align-items: center;
+  background: url("https://i.pinimg.com/736x/88/a4/c7/88a4c731313cc3b09e16aba4750208bf.jpg");
+}
+.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.left img {
+  height: 250px;
+  width: 200px;
+  border-radius: 50%;
+}
+.left h2 {
+  color: black;
+  background-color: rgb(159, 159, 238);
+  border-radius: 10px;
+  padding: 5px;
+}
+.right {
+  background-color: rgb(159, 159, 238);
+
+  padding: 0 20px;
+  color: rgb(4, 4, 187);
+  border-radius: 10px;
+}
+.row {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+.row h5 {
+  color: black;
+}
+.row p {
+  color: black;
+  font-size: 20px;
+}

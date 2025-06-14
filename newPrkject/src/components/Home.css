@@ -1,0 +1,28 @@
+.container {
+  display: flex;
+  gap: 30px;
+}
+.card img {
+  height: 180px;
+  width: 180px;
+  border-radius: 50%;
+}
+.card {
+  height: 300px;
+  width: 300px;
+  background-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  background: url("https://i.pinimg.com/736x/9e/74/cb/9e74cbe8fda838441a4277f701cceef3.jpg");
+}
+h2 {
+  color: white;
+}
+button {
+  border-radius: 5px;
+  background: blue;
+  color: white;
+}
